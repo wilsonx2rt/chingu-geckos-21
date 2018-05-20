@@ -6,6 +6,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 class ToDo extends React.Component {
   constructor(props){
     super(props);
+    
     this.state = {
       visible: 'todo-popup-container-hidden',
       value: '',
@@ -46,7 +47,15 @@ class ToDo extends React.Component {
   renderList = (key) => {
     let listItem = this.state.todoItems[key];
     return(
-          <li key={key}> {listItem} <i count={key} className="fa fa-times-circle" onClick={(event) => this.deleteTodoItem(key)}></i></li>
+          <li 
+          key={key}
+          > 
+          {listItem} <i 
+          count={key} 
+          className="fa fa-times-circle" onClick={(event) => this.deleteTodoItem(key)}
+          >
+          </i>
+          </li>
     )
   }
 
