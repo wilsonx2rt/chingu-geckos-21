@@ -23,7 +23,6 @@ class App extends Component {
       </div>
       <div className="bottom-container">
         <Links />
-//         <Quote/>
         <ToDo />
       </div>
     </div>);
