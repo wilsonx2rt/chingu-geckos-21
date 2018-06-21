@@ -23,7 +23,7 @@ class App extends Component {
       </div>
       <div className="bottom-container">
         <Links />
-        <a href="https://github.com/wilsonx2rt/chingu-geckos-21">Click To See The Code</a>
+        <a href="https://github.com/wilsonx2rt/chingu-geckos-21" target="_blank">Click To See The Code</a>
         <ToDo />
       </div>
     </div>);
